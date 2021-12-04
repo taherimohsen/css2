@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#container {
+    background-color: #003049;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    border: 5px solid #d32c0e;
+
+
+    
+    display: flex;
+
+    /*/ the flex-direction property alter the main axis . you can change the default main axis direction with this property  */
+    /*& row - row-reverse  -  column  -  column-reverse */
+    flex-direction:row;
+
+
+    /*/ the justify content property distribute the available space between all the elements inside the container.  */
+    /* &space-around - space-evenly - space-between - flex-start- center - flex-end */
+    justify-content:space-evenly;
+    /* align-items: baseline; */
+}
+
+

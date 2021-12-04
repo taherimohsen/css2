@@ -1,0 +1,60 @@
+div{
+    width: 250px;
+   height: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    border: 5px solid #d32c0e;
+
+    
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content:flex-start;
+
+    /* flex-wrap:wrap; */
+       
+    align-items:flex-start;
+  
+}
+
+
+
+/*$ flex-grow flex-shrink and flex-basis */
+
+.div-one{
+    flex-grow: 1;
+    
+}
+
+.div-two{
+    /* flex basis is the ideal width */
+    /* flex-basis: 400px  */
+}
+
+
+.div-three{
+    flex-grow: 2;
+    /* flex-shrink:1; */
+}
+
+.div-four{
+    
+    /* flex-shrink:4; */
+    /* flex-grow: 2; */
+}
+
+.div-five{
+    /* flex-basis: 20%; */
+}
+.div-six{
+    /* flex-grow: 1 */
+}

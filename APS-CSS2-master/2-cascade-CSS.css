@@ -1,0 +1,73 @@
+*{
+    color: rgb(122, 94, 98)
+}
+
+html{
+    font-size: 30px;
+    color: red
+}
+
+.top{
+    color: blue ;
+}
+
+.top , .header{
+    color: yellow
+}
+
+
+#header-id{
+    color: rgb(234, 0, 255)
+} 
+
+h1{
+    color: green  ;
+}  
+
+
+.header{
+    color: rgb(123, 240, 123)
+} 
+
+
+
+div div div div div div div div div div div div div div div p{
+  color: red  /* !important  */
+}
+
+
+.para{
+    color: rgb(0, 255, 21);
+}
+
+
+/* specificity */
+.post button:hover{
+    color: rgb(255, 238, 0);
+    background-color: black;
+    padding: 10px;
+}
+
+
+button:hover{
+    color: rgb(55, 0, 255);
+    padding: 2em;
+} 
+
+
+
+.top{
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+    margin: 100px;
+    background-color: red;
+    
+}
+span{
+
+    background-color: yellow;
+}

@@ -1,0 +1,87 @@
+*{
+  margin: 0 ; 
+  padding: 30px ;
+  font-size: 30px;
+  line-height: 2;
+}
+
+
+.class-b{
+  color: blue;
+  position: relative;
+}
+
+
+
+/* .class-b::after{
+content: "end";
+background-color: #000;
+
+}
+
+.class-b::before{
+content: "start ";
+background-color: red;
+color: goldenrod;
+display: block;
+} */
+
+/* .class-a::before{
+
+} */
+
+
+
+
+
+
+/* first-letter */
+
+
+
+
+.container p {
+  /* width: 500px; */
+  line-height: 1.5;
+}
+  
+/* h2::first-letter {
+  color: rgb(255, 0, 0);
+  background-color: black;
+  border-radius: 5px;
+  font-size: 50px;
+  padding: 6px 3px;
+  margin-right: 6px;
+}  */
+
+
+
+  /* first-line */
+/* 
+  p::first-line {
+    color: rgb(134, 87, 0);
+    margin-left: 20px;
+    background-color: #000;
+
+  }  */
+
+
+
+  /* selection */
+
+
+  /* a::selection {
+    color: gold;
+    background-color: tomato;
+  }
+  
+
+  p::selection {
+    color: blue;
+    background-color: red;
+  } 
+
+  span::selection{
+    background-color: rgb(122, 172, 142);
+    color: rgb(38, 0, 255);
+  } */

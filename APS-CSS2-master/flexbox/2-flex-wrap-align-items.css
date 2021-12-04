@@ -1,0 +1,57 @@
+div{
+    width: 350px;
+   height: 350px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    border: 5px solid #d32c0e;
+
+    
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content:center;
+    
+
+/*/ the flex-wrap property let the elements wrap , that means if they don't have enough space they can shrink or go to the next line */
+    /*& wrap - nowrap(defaut) -   wrap-reverse  */
+    flex-wrap:wrap;
+    
+    
+    /*/ it aligns the items vertically like justify-content which justify the items horizontally */
+    /*& baseline - stretch(default) - flex-start- center - flex-end */
+    align-items:center;
+    
+    
+
+
+    /* & stretch - flex-start- center - flex-end  - space-between  - space-around */
+    /* $ note that stretch won't work if your align-items is on */
+    /* align-content: space-evenly; */
+
+}
+
+.div-one{
+    /* try align-items: baseline */
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 70px;
+}
+.div-three{
+    font-size: 10rem
+}
+
+.div-six{
+    font-size: 150px;
+}

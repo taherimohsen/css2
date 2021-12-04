@@ -1,0 +1,58 @@
+div{
+    width: 200px;
+    min-height: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    border: 5px solid #d32c0e;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: flex-start;
+
+    justify-content:flex-start;
+    
+    flex-wrap:nowrap;
+}
+
+/* $ child properties */
+/* align self property gives you the control over each item and you can align each one specifically  */
+/*  flex-start | flex-end | center | baseline | stretch; */
+.div-three{
+    /* try align-self */
+    align-self: flex-start;
+}
+
+
+
+
+/*& lets try order => default = 0 */
+/* order in flexbox set a value for each item and make it appear before or after other items */
+.div-four{
+    order: 2;
+}
+
+.div-five{
+    order: 1;
+}
+
+.div-two{
+    order: -1;
+}
+
+
+
+
+
+
+

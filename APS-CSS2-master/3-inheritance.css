@@ -1,0 +1,40 @@
+/* almost all typography declarations are inheritable(like color,font-family,font-size,font-weight etc.) but layout declarations are not(like margins and paddings and borders etc.) */
+
+*{
+    box-sizing: border-box;
+}
+
+
+.parent{
+    
+    font-size: 18px;
+}
+
+.list-of-students{
+    background-color: aquamarine;
+}
+
+.aps{
+    color: red
+}
+
+.bahar{
+    background-color: rgb(255, 166, 0);
+    margin-top: 20px;
+}
+
+.bahar li {
+    margin: inherit
+}
+
+.fatemeh{
+    font-size: 30px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+ 

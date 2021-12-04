@@ -1,0 +1,125 @@
+*{
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    /* color: red */
+}
+ 
+/* 
+input[type="checkbox"] {
+  position: absolute; */
+  /* visibility: hidden; */
+/* input:checked + label {
+  color: red; */
+/* } */
+
+/* 
+a:hover{
+    color: rgb(255, 136, 0);
+    font-size: 20px;
+}
+ */
+
+
+/* a:active{
+    color: red;
+    font-size: 50px;
+    
+} */
+
+
+
+/* a:visited {
+    color: rgb(101, 226, 43);
+  
+} */
+
+/* 
+span:hover{
+    color: green;
+    font-size: 30px;
+    cursor: pointer;
+} */
+
+
+/* ul li:first-child{
+     color: rgb(0, 126, 138);
+ } */
+
+ /* ul li:not(:first-child){
+color: rgb(139, 0, 0);
+ } */
+
+
+/* p:first-child{
+    color: red; 
+} */
+
+
+/* 
+span:not(.bad-span){
+    color: rgb(0, 217, 255)
+} */
+
+
+
+p:nth-of-type(3){
+    font-size: 30px;
+    color: brown;
+}
+
+
+
+li:nth-child(even){
+    color: blue;
+    font-size: 2em;
+    text-decoration: underline;
+    
+} 
+
+/* 
+.container span:nth-child(7){
+    color: rgb(255, 215, 39);
+} */
+
+
+/* 
+li:nth-child(2n+1){
+    color: red;
+    font-size: 2em;
+}   */
+
+/* p:nth-of-type(3){
+    color: red;
+}
+
+
+li:nth-of-type(3){
+    color: red;
+} */
+
+
+
+/* input[type="checkbox"]:checked {
+width: 30px;
+height: 30px;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

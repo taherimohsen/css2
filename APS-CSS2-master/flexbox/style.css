@@ -1,0 +1,41 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+.div-one{
+    background: url(img/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-two{
+    background: url(img/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-three{
+    background: url(img/3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-four{
+    background: url(img/4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-five{
+    background: url(img/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div-six{
+    background: url(img/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

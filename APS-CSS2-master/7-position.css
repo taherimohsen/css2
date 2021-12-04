@@ -1,0 +1,66 @@
+*{
+    margin: 0 ; 
+    padding: 0 ;
+}
+
+.container{
+    width:1000px;
+    height: 5500px;
+    border: 1px solid black;
+    background-color: khaki;
+
+    position: relative;
+}
+.container div{
+    margin: 50px;
+}
+.container div {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* $ position static */
+.child1{
+    /* position static make the div not be affected towards top , left , right , bottom attributes */
+    background-color: rgb(243, 79, 79);
+    position: static;
+    top: 1000px;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+
+}
+
+/*$ position sticky and fixed */
+.child2{
+    background-color:blue;
+    /* compare position fixed and sticky */
+    /* position: fixed; */
+    position: sticky;
+    top: 500px;
+    left: 200px;
+    
+}
+
+
+/* $ position absolute */
+.child3{
+    background-color:green;
+    width: 100px;
+    height: 100px;
+    /* position: relative; */
+    /* if you want to use position absolute you must put a position relative to its parent (in this case .container */
+    position: absolute;
+    top: 200px ;
+    left: 150px ; 
+     right: 120px;
+}
+
+
+
+/* $ rgba() */
+.container .child1{
+
+    /* background-color: rgba(50, 47, 235, 0.52); */
+}
